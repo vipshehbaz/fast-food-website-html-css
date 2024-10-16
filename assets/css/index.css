@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.header{
+    background-color: maroon;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-transform: capitalize;
+}
+
+.header h1{
+    padding: 0px 20px;
+}
+
+.wraper {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.nav{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.nav ul li{
+    display: inline;
+    line-height: 50px;
+    padding: 15px 20px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+    height: 400px;
+}
+
+.phead{
+    color: black;
+}
+
+.phead h2{
+    border-bottom: 1px solid black;
+}
+
+.nav ul li:hover {
+    /* background-color: maroon; */
+}
+
+.box{
+    height: 290px;
+    width: 23.5%;
+    /* background-color: black; */
+    text-align: center;
+    line-height: 25px;
+    color: #000;
+    border: 2px solid black;
+    margin: 10px 5px;
+    float: left;
+}
+
+.boximg{
+    height: 200px;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+.boximg img{
+    height: 100%;
+    width: 100%;
+}
+
+.box h3{
+    text-transform: uppercase;
+}
+
+.box a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    background-color: maroon;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.box a:hover{
+    background-color: black;
+}
+
+.footer{
+    background-color: #000;
+    text-align: center;
+    clear: both;
+    padding: 20px 0;
+}
+
+.box h3 del{
+    font-size: 0.8rem;
+}
